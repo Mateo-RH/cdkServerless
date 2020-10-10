@@ -3,9 +3,19 @@
 *.d.ts
 node_modules
 
+!lambda/**
+lambda/dev/node_modules
+lambda/dev/.serverless
+lambda/dev/jspm_packages
+lambda/prod/
+
 # CDK asset staging directory
 .cdk.staging
 cdk.out
 
 # Parcel default cache directory
 .parcel-cache
+
+
+
+
